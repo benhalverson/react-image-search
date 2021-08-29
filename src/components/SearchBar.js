@@ -12,6 +12,7 @@ class SearchBar extends Component {
         <form className="ui form" onSubmit={this.onFormSubmit}>
           <label>Image Search</label>
           <input
+            data-testid="search-bar"
             type="text"
             className="field"
             value={this.state.term}
