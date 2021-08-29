@@ -26,6 +26,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "cypress": "8.3.1"
+    "@cypress/react": "5.9.4",
+    "@cypress/webpack-dev-server": "1.4.0",
+    "cypress": "8.3.1",
+    "webpack-dev-server": "4.0.0"
   }
 }
