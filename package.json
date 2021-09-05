@@ -10,9 +10,10 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "cypress:open": "cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -23,5 +24,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@cypress/code-coverage": "3.9.10",
+    "@cypress/instrument-cra": "1.4.0",
+    "@cypress/react": "5.9.4",
+    "@cypress/webpack-dev-server": "1.4.0",
+    "@testing-library/cypress": "8.0.0",
+    "cypress": "8.3.1",
+    "cypress-react-selector": "2.3.11",
+    "webpack-dev-server": "4.0.0"
+  }
 }
